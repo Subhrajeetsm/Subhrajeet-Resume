@@ -6,7 +6,12 @@
       font-family: 'Segoe UI', sans-serif;
     }
 
-
+@media(max-height:500px)
+{
+	.flex-items{
+		flex:100%;
+	}
+}
     body {
       background-color: #f4f4f4;
       color: #333;
@@ -237,6 +242,7 @@
         font-size: 14px;
       }
     }
+
 
 
 
